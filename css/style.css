@@ -9874,10 +9874,18 @@ h3 {
 
 /*# sourceMappingURL=style.css.map */
 #mass{
-  display: block !important;
-  left: 10px;
-  bottom: 10px; 
-  z-index: 1111;
+    display: block !important;
+    left: 10px;
+    bottom: 10px;
+    z-index: 1111;
+    position: fixed;
+    display: none;  
+    height: 30px;
+    text-align: center;
+    line-height: 1;
+    font-size: 30px;  
+    bottom: 30px;
+    transition: background 0.5s;
 }
 #mass i{
   font-size: 57px !important;
